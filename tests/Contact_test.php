@@ -39,4 +39,30 @@ class Contact_test extends TestCase
         $this->assertEquals($expected, $result);
     }
 
+
+
+    /*---------------------------------------------------------------*/
+    /* Testing invalid format field inputs and error messages to user*/
+    /*---------------------------------------------------------------*/
+
+    public function testNameInvalidFormatOutput()
+    {
+        $result = $this->test->returnName('4685434');
+        $expected = 'Please use letters only!';
+        $this->assertEquals($expected, $result);
+    }
+
+   public function testEmailInvalidFormatOutput()
+    {
+        $result = $this->test->returnEmail('error04.4380');
+        $expected = 'Invalid email format';
+        $this->assertEquals($expected, $result);
+    }
+
+    public function testNumberInvalidFormatOutput()
+    {
+        $result = $this->test->returnNumber('fdsffds');
+        $expected = 'Invalid Number';
+        $this->assertEquals($expected, $result);
+    }
 }
