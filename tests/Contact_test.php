@@ -65,4 +65,15 @@ class Contact_test extends TestCase
         $expected = 'Invalid Number';
         $this->assertEquals($expected, $result);
     }
+
+    
+    /*---------------------------------------------------------------*/
+    /* Testing correct format field inputs */
+    /*---------------------------------------------------------------*/
+    public function testNameCorrectInput()
+    {
+        $result = $this->test->returnName('John');
+        $expected = 'Name iss set';
+        $this->assertEquals($expected, $result);
+    }
 }
