@@ -22,7 +22,7 @@ class ContactTest extends TestCase
     {
         //$test = new handle();
         //$_POST['name'] = '';       
-        $result = $this->test->returnName('')
+        $result = $this->test->returnName('');
         $expected = 'Name is required';
         $this->assertEquals($expected, $result);
     }
