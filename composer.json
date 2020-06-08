@@ -3,7 +3,11 @@
         "phpunit/phpunit": "6.5.14"
     },
     "autoload": {
-        "psr-0": {"":"src/"}
+        "psr-0": 
+        {
+        	"aadesh\\":"src/",
+        	"aadesh\\tests":"tests"
+    	}
     },
     "name":"aadesh/phptest",
     "description":"CI test"
