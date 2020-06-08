@@ -6,13 +6,13 @@
         "psr-4": 
         {
         	"aadesh\\":"src/",
-        	"aadesh\\tests\\":"tests"
+        	"aadesh\\Tests\\":"tests"
     	}
     },
      "scripts": {
     	"update-snapshots": "./vendor/bin/phpunit --no-coverage -d --update-snapshots",
     "test": "vendor/bin/phpunit",
-    "test-coverage": "phpunit tests\\contact_test.php",
+    "test-coverage": "phpunit tests",
     "pcf": "vendor/bin/php-cs-fixer fix --verbose"
   },
     "name":"aadesh/phptest",

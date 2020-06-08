@@ -1,5 +1,7 @@
 <?php
 
+namespace aadesh\Tests;
+
 use PHPUnit\Framework\TestCase;
 
 class Contact_test extends TestCase
