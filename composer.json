@@ -4,5 +4,7 @@
     },
     "autoload": {
         "psr-0": {"":"src/"}
-    }
+    },
+    "name":"Aadesh/PhpTest",
+    "description":"CI test"
 }
