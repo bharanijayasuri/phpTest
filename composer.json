@@ -5,13 +5,14 @@
     "autoload": {
         "psr-4": 
         {
-        	"aadesh\\":"src/"
+        	"aadesh\\":"src/",
+        	"aadesh\\tests":"tests"
     	}
     },
      "scripts": {
     	"update-snapshots": "./vendor/bin/phpunit --no-coverage -d --update-snapshots",
     "test": "vendor/bin/phpunit",
-    "test-coverage": "./vendor/bin/phpunit --debug --coverage-html coverage",
+    "test-coverage": "./vendor/bin/phpunit tests --debug --coverage-html coverage",
     "pcf": "vendor/bin/php-cs-fixer fix --verbose"
   },
     "name":"aadesh/phptest",
