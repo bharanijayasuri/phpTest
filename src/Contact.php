@@ -35,6 +35,8 @@
 /* Error handling for customer support form*/
 /*-------------------------------------------------------------*/
 
+namespace aadesh;
+
 $name = $name_error = "";
 $email = $email_error =  "";
 $number = $number_error = "";

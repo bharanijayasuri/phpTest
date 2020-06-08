@@ -10,7 +10,7 @@
     	}
     },
      "scripts": {
-    "test-coverage": "phpunit --verbose"
+    "test-coverage": "phpunit tests --verbose"
   },
     "name":"aadesh/phptest",
     "description":"CI test"
