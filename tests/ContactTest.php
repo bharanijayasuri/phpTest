@@ -3,7 +3,7 @@
 namespace tests;
 
 use PHPUnit\Framework\TestCase;
-use aadesh;
+use aadesh\Contact;
 
 class ContactTest extends TestCase
 {
