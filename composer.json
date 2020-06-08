@@ -6,7 +6,7 @@
         "psr-4": 
         {
         	"aadesh\\":"src/",
-        	"aadesh\\tests":"tests"
+        	"aadesh\\tests\\":"tests"
     	}
     },
      "scripts": {
