@@ -5,8 +5,8 @@
     "autoload": {
         "psr-4": 
         {
-        	"aadesh\\":"src/",
-        	"aadesh\\Tests\\":"tests"
+        	"aadesh\\Contact\\":"src/",
+        	"aadesh\\Contact\\Tests\\":"tests"
     	},
     	"classmap":["src/"]
     },

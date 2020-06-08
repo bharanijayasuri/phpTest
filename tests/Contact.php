@@ -170,7 +170,7 @@ echo "<br>";
 /* Individual unit testing run for contact form */
 /*-------------------------------------------------------------*/
 //Class created with similar error handling to test code
-namespace aadesh;
+namespace aadesh\Contact;
 
 class Contact
 {

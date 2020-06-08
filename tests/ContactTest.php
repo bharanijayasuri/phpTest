@@ -1,6 +1,6 @@
 <?php
 
-namespace aadesh\Tests;
+namespace aadesh\Contact\Tests;
 
 use PHPUnit\Framework\TestCase;
 
