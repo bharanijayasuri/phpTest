@@ -6,11 +6,11 @@
         "psr-4": 
         {
         	"aadesh\\":"src/",
-        	"aadesh\\Tests\\":"teststuff"
+        	"aadesh\\Tests\\":"tests"
     	}
     },
      "scripts": {
-    "test-coverage": "phpunit teststuff --verbose"
+    "test-coverage": "phpunit tests --verbose"
   },
     "name":"aadesh/phptest",
     "description":"CI test"
