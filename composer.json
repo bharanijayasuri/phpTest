@@ -2,8 +2,13 @@
     "require-dev": {
         "phpunit/phpunit": "6.5.14"
     },
+    "autoload-dev": {
+    "psr-4": {
+        "tests\\": "tests/"
+    	}
+	},
      "scripts": {
-    "test-coverage": "phpunit --bootstrap src/autoload.php --verbose tests"
+    "test-coverage": "phpunit --verbose tests"
   },
     "name":"aadesh/phptest",
     "description":"CI test"
