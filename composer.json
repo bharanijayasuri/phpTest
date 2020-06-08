@@ -3,14 +3,10 @@
         "phpunit/phpunit": "6.5.14"
     },
     "autoload": {
-        "psr-4": 
-        {
-        	"aadesh\\":"src/"
-    	},
     	"files":["src/Contact.php"]
     },
      "scripts": {
-    "test-coverage": "phpunit"
+    "test-coverage": "phpunit --verbose tests"
   },
     "name":"aadesh/phptest",
     "description":"CI test"
