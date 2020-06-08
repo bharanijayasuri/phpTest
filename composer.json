@@ -15,7 +15,7 @@
         }
     },
      "scripts": {
-    "test-coverage": "vendor/bin/phpunit --debug --coverage-html coverage",
+    "test-coverage": "vendor/bin/phpunit --debug --coverage-html coverage"
   },
     "name":"aadesh/phptest",
     "description":"CI test"
