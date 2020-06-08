@@ -10,7 +10,7 @@
     	"files":["src/Contact.php"]
     },
      "scripts": {
-    "test-coverage": "phpunit tests"
+    "test-coverage": "phpunit"
   },
     "name":"aadesh/phptest",
     "description":"CI test"
