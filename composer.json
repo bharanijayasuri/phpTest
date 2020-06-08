@@ -10,7 +10,7 @@
     	}
     },
      "scripts": {
-    "test-coverage": "phpunit tests --verbose"
+    "test-coverage": "phpunit --bootstrap vendor/autoload.php tests"
   },
     "name":"aadesh/phptest",
     "description":"CI test"
