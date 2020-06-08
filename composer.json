@@ -2,14 +2,6 @@
     "require-dev": {
         "phpunit/phpunit": "6.5.14"
     },
-    "autoload-dev": {
-    "psr-4": {
-    	"aadesh\\":"src/"
-    	},
-    	"psr-0":{
-    		"aadesttests\\":"tests/"
-    	}
-	},
      "scripts": {
     "test-coverage": "phpunit --verbose tests"
   },
