@@ -5,6 +5,6 @@
     "autoload": {
         "psr-0": {"":"src/"}
     },
-    "name":"Aadesh/PhpTest",
+    "name":"aadesh/phptest",
     "description":"CI test"
 }
