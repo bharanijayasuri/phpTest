@@ -5,7 +5,7 @@
     "autoload": {
         "psr-4": 
         {
-        	"aadesh\\":"src/"
+        	"aadesh\\":"src"
     	}
     },
      "scripts": {
