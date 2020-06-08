@@ -4,8 +4,10 @@
     },
     "autoload-dev": {
     "psr-4": {
-    	"aadesh\\":"src/",
-        "tests\\": "tests/"
+    	"aadesh\\":"src/"
+    	},
+    	"psr-0":{
+    		"aadesttests\\":"tests/"
     	}
 	},
      "scripts": {

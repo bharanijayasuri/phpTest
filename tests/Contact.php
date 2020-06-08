@@ -35,7 +35,7 @@
 /* Error handling for customer support form*/
 /*-------------------------------------------------------------*/
 
-namespace aadesh;
+namespace aadesh\contact;
 
 $name = $name_error = "";
 $email = $email_error =  "";
@@ -170,7 +170,7 @@ echo "<br>";
 /* Individual unit testing run for contact form */
 /*-------------------------------------------------------------*/
 //Class created with similar error handling to test code
-namespace aadesh;
+namespace aadesh\contact;
 
 class Contact
 {
