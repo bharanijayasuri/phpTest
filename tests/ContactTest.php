@@ -29,7 +29,7 @@ class ContactTest extends TestCase
     public function testEmailEmptyFieldOutput()
     {
         $result = $this->test->returnEmail('');
-        $expected = 'Email is required';
+        $expected = 'Email iss required';
         $this->assertEquals($expected, $result);
     }
 
@@ -74,7 +74,7 @@ class ContactTest extends TestCase
     public function testNameCorrectInput()
     {
         $result = $this->test->returnName('John');
-        $expected = 'Name is set';
+        $expected = 'Name iss set';
         $this->assertEquals($expected, $result);
     }
 }
