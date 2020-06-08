@@ -3,7 +3,7 @@
         "phpunit/phpunit": "6.5.14"
     },
      "scripts": {
-    "test-coverage": "phpunit --verbose tests"
+    "test-coverage": "phpunit --bootstrap src/autoload.php --verbose tests"
   },
     "name":"aadesh/phptest",
     "description":"CI test"
