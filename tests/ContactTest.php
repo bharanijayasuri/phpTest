@@ -4,7 +4,7 @@ namespace aadesh\Tests;
 
 use PHPUnit\Framework\TestCase;
 
-class Contact_test extends TestCase
+class ContactTest extends TestCase
 {
     private $test;
 
