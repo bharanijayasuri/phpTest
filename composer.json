@@ -8,12 +8,6 @@
         	"aadesh\\":"src/phptest"
     	}
     },
-    "autoload-dev": {
-        "psr-4": 
-        {
-            "aadesh\\Tests": "tests"
-        }
-    },
      "scripts": {
     "test-coverage": "vendor/bin/phpunit --debug --coverage-html coverage"
   },
