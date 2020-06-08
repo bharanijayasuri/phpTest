@@ -5,9 +5,13 @@
     "autoload": {
         "psr-0": 
         {
-        	"aadesh\\":"src/",
-        	"aadesh\\tests":"tests"
+        	"aadesh\\":"src/phptest",
     	}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "aadesh\\Tests": "tests",
+        }
     },
     "name":"aadesh/phptest",
     "description":"CI test"
