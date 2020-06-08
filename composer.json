@@ -5,12 +5,13 @@
     "autoload": {
         "psr-0": 
         {
-        	"aadesh\\":"src/phptest",
+        	"aadesh\\":"src/phptest"
     	}
     },
     "autoload-dev": {
-        "psr-4": {
-            "aadesh\\Tests": "tests",
+        "psr-4": 
+        {
+            "aadesh\\Tests": "tests"
         }
     },
     "name":"aadesh/phptest",
