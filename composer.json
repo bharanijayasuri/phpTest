@@ -1,0 +1,10 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "6.5.14"
+    },
+    "autoload": {
+        "psr-0": {"":"src/"}
+    },
+    "name":"Aadesh/PhpTest",
+    "description":"CI test"
+}
