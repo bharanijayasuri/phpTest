@@ -74,7 +74,7 @@ class ContactTest extends TestCase
     public function testNameCorrectInput()
     {
         $result = $this->test->returnName('John');
-        $expected = 'John';
+        $expected = 'Name is set';
         $this->assertEquals($expected, $result);
     }
 }
