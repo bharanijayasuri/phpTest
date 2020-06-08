@@ -5,10 +5,9 @@
     "autoload": {
         "psr-4": 
         {
-        	"aadesh\\Contact\\":"src/",
-        	"aadesh\\Contact\\Tests\\":"tests"
+        	"aadesh\\":"src/"
     	},
-    	"classmap":["src/"]
+    	"files":["src/Contact.php"]
     },
      "scripts": {
     "test-coverage": "phpunit tests"
